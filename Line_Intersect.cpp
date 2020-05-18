@@ -46,10 +46,11 @@ bool SegIntersect(class LineSeg l1,class LineSeg l2) {
 	
 }
 int main()
-{
+{       
+	//this is a wrong way for defining an object of LineSeg
 	//LineSeg line(Point pp,Point ppp);
 	//cout<<line.p1.x 
-	//this is wrong 
+	
 	Point p1(0,0),p2(1,2),p3(3,2),p4(2,0);
 	LineSeg line1(p1,p2);
 	LineSeg line2(p3,p4);
