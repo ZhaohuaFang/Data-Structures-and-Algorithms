@@ -11,6 +11,7 @@ Indeed , please note the fact that the line segments AB and CD are not intersect
 A point is said to be a lattice point if both its x and y coordinates are integers. In this problem , we consider only the line segments having both their end-points being lattice points . 
 
 Consider the following class 'LineSeg' that has member variables Point p1 and p2.
+
 class LineSeg {
 public:
     Point p1,p2;
@@ -24,16 +25,21 @@ public:
 };
 
 You are required to Write A function :
+
 Function Name : SegIntersect
 
 This function has two parameters:
 
 LineSeg l1 :  First line segment with its end-points given.
+
 LineSeg l2 :  Second line segment with its end-points given.
+
 The function should do the following
 
 It should take two line segments as its parameters and find out whether the line segments are intersecting.
+
 If they are intersecting , the function must return true else it must return false .
+
 The function is given below, in which you need to write your code
 
 bool SegIntersect(class LineSeg l1,class LineSeg l2) {
@@ -43,7 +49,9 @@ bool SegIntersect(class LineSeg l1,class LineSeg l2) {
 In the 'main' program, the function 'SegIntersect' is called using two arguments, l1 and l2 which are passed by value, both of type 'class LineSeg' .
 
 Sample Test Cases are given below :
+
    Sample Test Case # 1
+   
 Details of Line Segment 1 :
 
 EndPoint 1 : (0,0) EndPoint 2 : (2,0)
@@ -51,9 +59,11 @@ EndPoint 1 : (0,0) EndPoint 2 : (2,0)
 Details of Line Segment 2 :
 
 EndPoint 1 : (0,0) EndPoint 2 : (0,2) 
+
 Both line segments intersect at (0,0)
 
    SAMPLE TEST CASE # 2
+   
 Details of Line Segment 1 :
 
 EndPoint 1 : (-1,0) EndPoint 2 : (3,0)
@@ -61,9 +71,11 @@ EndPoint 1 : (-1,0) EndPoint 2 : (3,0)
 Details of Line Segment 2 :
 
       EndPoint 1 : (0,4) EndPoint 2 : (0,6) 
+      
       Both line segments do not intersect.
 
  SAMPLE TEST CASE # 3
+ 
 Details of Line Segment 1 :
 
 EndPoint 1 : (0,0) EndPoint 2 : (1,2)
@@ -71,4 +83,5 @@ EndPoint 1 : (0,0) EndPoint 2 : (1,2)
 Details of Line Segment 2 :
 
       EndPoint 1 : (3,2) EndPoint 2 : (2,0) 
+      
       Both line segments do not intersect.
