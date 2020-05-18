@@ -13,15 +13,21 @@ A point is said to be a lattice point if both its x and y coordinates are intege
 Consider the following class 'LineSeg' that has member variables Point p1 and p2.
 
 class LineSeg {
+
 public:
+
     Point p1,p2;
+    
 };
 
 Here, class 'Point' is the data structure for a point that has its coordinates x and y as data variables.
 
 class Point {
+
 public:
+
  int x,y; 
+ 
 };
 
 You are required to Write A function :
@@ -51,3 +57,5 @@ In the 'main' program, the function 'SegIntersect' is called using two arguments
 To deal with this problem, I used a two-stage method to determine whether two line segments intersect, which are rapid rejection experiment and straddle experiment.
 
 Despite using 'struct' to define two line segments, I use two 'class' to define points and line segments respectively.
+
+This is GPA 01 assignment of Foundations of Data Structures, IITBombayX: CS213.1x, on edX.
