@@ -26,7 +26,7 @@ class Point {
 
 public:
 
- int x,y; 
+    int x,y; 
  
 };
 
@@ -54,8 +54,10 @@ bool SegIntersect(class LineSeg l1,class LineSeg l2) {
 
 In the 'main' program, the function 'SegIntersect' is called using two arguments, l1 and l2 which are passed by value, both of type 'class LineSeg' .
 
+What I mentioned above is GPA 01 assignment of Foundations of Data Structures, IITBombayX: CS213.1x, on edX.
+
 To deal with this problem, I used a two-stage method to determine whether two line segments intersect, which are rapid rejection experiment and straddle experiment.
 
 Despite using 'struct' to define two line segments, I use two 'class' to define points and line segments respectively.
 
-This is GPA 01 assignment of Foundations of Data Structures, IITBombayX: CS213.1x, on edX.
+
