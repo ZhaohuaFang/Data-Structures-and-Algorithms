@@ -58,6 +58,6 @@ What I shared above is GPA 01 assignment of Foundations of Data Structures, IITB
 
 To deal with this problem, I used a two-stage method to determine whether two line segments intersect, which are rapid rejection experiment and straddle experiment.
 
-Despite using 'struct' to define two line segments, I use two 'class' to define points and line segments respectively.
+Despite from using 'struct' to define two line segments, I use two 'class' to define points and line segments respectively.
 
 
