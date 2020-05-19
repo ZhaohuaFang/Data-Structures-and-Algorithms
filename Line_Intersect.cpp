@@ -23,7 +23,8 @@ LineSeg::LineSeg(Point xp1,Point xp2):p1(xp1),p2(xp2){}
 LineSeg::LineSeg(LineSeg &L):p1(L.p1),p2(L.p2){}
 
 bool SegIntersect(class LineSeg l1,class LineSeg l2) {
-	if ((l1.p1.x > l1.p2.x ? l1.p1.x : l1.p2.x) < (l2.p1.x < l2.p2.x ? l2.p1.x : l2.p2.x) ||
+    //rapid rejection experiment
+    if ((l1.p1.x > l1.p2.x ? l1.p1.x : l1.p2.x) < (l2.p1.x < l2.p2.x ? l2.p1.x : l2.p2.x) ||
         (l1.p1.y > l1.p2.y ? l1.p1.y : l1.p2.y) < (l2.p1.y < l2.p2.y ? l2.p1.y : l2.p2.y) ||
         (l2.p1.x > l2.p2.x ? l2.p1.x : l2.p2.x) < (l1.p1.x < l1.p2.x ? l1.p1.x : l1.p2.x) ||
         (l2.p1.y > l2.p2.y ? l2.p1.y : l2.p2.y) < (l1.p1.y < l1.p2.y ? l1.p1.y : l1.p2.y))
