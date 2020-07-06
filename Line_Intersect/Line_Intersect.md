@@ -4,7 +4,7 @@ You are expected to write the code of a function which takes two line segments a
 
 A line segment can be uniquely represented by its endpoints and its endpoints by their x and y-coordinates wrt to a fixed origin.  Given two line segments , we need to check if these two line segments intersect or not (ie. have atleast one point in common) . For example, consider two line segments joining (0,0) , (0,2) and (0,0) , (2,0) respectively . Both of them indeed intersect at (0,0) .
 
-![image](https://github.com/ZhaohuaFang/Line-Segments-Intersecting/blob/master/Graded_Programming_Assignment_GPA_01__Problem_Description_.png)
+![image](https://github.com/ZhaohuaFang/edX-Assignment/blob/master/Line_Intersect/Graded_Programming_Assignment_GPA_01__Problem_Description_.png)
 
 Indeed , please note the fact that the line segments AB and CD are not intersecting though the lines AB and CD intersect on extending the line segments . 
 
